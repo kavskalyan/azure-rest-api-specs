@@ -52,7 +52,10 @@
         "networkAclBypass": "AzureServices",
         "networkAclBypassResourceIds": [
           "/subscriptions/subId/resourcegroups/rgName/providers/Microsoft.Synapse/workspaces/workspaceName"
-        ]
+        ],
+        "capacity": {
+          "totalThroughputLimit": 2000
+        },
       }
     }
   },
@@ -169,7 +172,10 @@
           "networkAclBypass": "AzureServices",
           "networkAclBypassResourceIds": [
             "/subscriptions/subId/resourcegroups/rgName/providers/Microsoft.Synapse/workspaces/workspaceName"
-          ]
+          ],
+          "capacity": {
+            "totalThroughputLimit": 2000
+          },
         }
       }
     }
