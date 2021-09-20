@@ -1190,6 +1190,10 @@
             "diskCapacity": {
               "type": "int",
               "description": "Number of disk used for data centers. Default value is 4."
+            },
+            "availabilityZoneEnabled": {
+              "type": "boolean",
+              "description": "Should availability zone be enabled on this data center? If omitted, this is false. This could not be changed after creation."
             }
           }
         }
